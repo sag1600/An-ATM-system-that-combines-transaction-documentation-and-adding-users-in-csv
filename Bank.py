@@ -54,8 +54,8 @@ def Save():
      
 def Menu():
    print("\nGood Morning\n")
-   print(f"""1)Creating a new account """),
-   print(f"2)Account deposit")
+   print(f"""1)Creating a new account """)
+   print(f"""2)Account deposit""")
    print(f"""3)Withdrawal from the bank account""")
    print(f"""4)Check cash balance""")
    print(f"""5)Bank account transaction report""")
