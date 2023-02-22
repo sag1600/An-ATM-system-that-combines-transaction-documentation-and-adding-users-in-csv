@@ -266,11 +266,7 @@ def Main():
             print("\nThank you very much, hello and goodbye")
             Save()
             exit()
-     if choice >6:
-            print("\nYour selection is incorrect. Please choose between the numbers 1-6\n")
-            time.sleep(2)
-            Menu()
-     elif choice<=0:
+     if choice >6 or <=0:
             print("\nYour selection is incorrect. Please choose between the numbers 1-6\n")
             time.sleep(2)
             Menu()
