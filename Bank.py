@@ -17,7 +17,6 @@ def ReadTransactions():
    red_t= 'transaction.csv'
    with open(red_t) as transaction:
      red_data = csv.reader(transaction,delimiter=',')
-     next(transaction)
      for  j in red_data:
       red_t2.append(j)
    return red_t2
